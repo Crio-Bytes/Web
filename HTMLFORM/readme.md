@@ -14,6 +14,8 @@ Popular editors include:
 Phase 6 HTML Editor
 All of these editors have large interfaces that enable you to manually enter the code. 
 ## Step 2: Create a new file with .HTML extension
+![alt text](https://github.com/Crio-Bytes/Web/blob/main/HTMLFORM/Images/createfile.png)
+
 The next step is to tell your operating system that you intend to create a new HTML file. Do this by creating a new file and then saving it with the .html extension. It’s easy: just type the file name (whatever you choose), and then follow it with .html. For example: [myfile.html]. 
   ## Step 3: Type <html> into the editor
 This command tells the editor that you intend to create HTML code, and it will automatically generate the following code for you.
@@ -68,6 +70,7 @@ Type:
 ```
 
 Here's what this basic code will produce:
+![alt text](https://github.com/Crio-Bytes/Web/blob/main/HTMLFORM/Images/image1.png)
 
 
 
@@ -115,6 +118,7 @@ A placeholder is text inside your form's fields that prompts users to respond to
 ```
 
 Typing in this new code will produce a form like this:
+![alt text](https://github.com/Crio-Bytes/Web/blob/main/HTMLFORM/Images/image2.png)
 
 
 You can also create additional options for customers to select their age or gender using a similar structure to that given above.
@@ -126,6 +130,7 @@ To create a field for gender, insert the following values to your code (right ab
 ```
 
 This will turn into checkboxes, one for male and one for female. Here's how your form should look now:
+![alt text](https://github.com/Crio-Bytes/Web/blob/main/HTMLFORM/Images/image3.png)
 
 ## How to make your HTML form look better 
 If you're looking to create a very basic form, one way to improve the look of your HTML form is by using CSS. CSS allows you to customise several aspects of the HTML code to make it look better. 
@@ -151,4 +156,5 @@ table {
 ```
 
  Here's how your form should look now:
+![alt text](https://github.com/Crio-Bytes/Web/blob/main/HTMLFORM/Images/final.png)
 
