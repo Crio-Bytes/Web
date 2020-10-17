@@ -6,13 +6,15 @@ The **World Wide Web** (**WWW**), commonly known as **the Web**, is an [informat
 
 <div>
     <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/WWW_logo_by_Robert_Cailliau.svg/601px-WWW_logo_by_Robert_Cailliau.svg.png" style="display: block; margin-left: auto; margin-right: auto;" align = "center" width = "300px" />
-    <center style="margin-top: 15px;">The Web's former logo designed by Belgian Robert Cailliau</center>
+    <br />
+    <center>The Web's former logo designed by Belgian Robert Cailliau</center>
     <div align="center">
         <tr><td><b>Inventor</b></td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<td><a href="https://en.wikipedia.org/wiki/Tim_Berners-Lee">Tim Berners-Lee</a></td></tr>
         <br />
         <tr><td><b>Inception</b></td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<td>12 March 1989</td></tr>
     </div>
 </div>
+
 
 
 
