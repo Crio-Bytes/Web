@@ -13,18 +13,11 @@ There will be a SignIn button, when the user hits on it a window pops up which w
 
 <b><u><i> Note: </i></u></b> OAuth doesn't share passwords between the identity provider and the user instead it shares the Authorization tokens!
 
-## Implementation Steps 
-
-* Configuration
-* Initialization
-* Rendering a button
-* Signing In
-* Getting Profile Info
-* Signing Out
+## Implementation...
 
 Let's try here SignIn with Google using OAuth2.0 (ie), we will be having Google as an identity provider which indirectly means that the user who ever LogsIn to the application succesfully will surely have a proper profile at Google. 
 
-## Step -1: Configuration
+## Step -1:
 
 Firstly, on the Google developers site : https://console.developers.google.com we need to create a project and get the credentials (ie), OAuth client Id and secret key to integrate it with the web app.
 
@@ -34,7 +27,7 @@ So, Now we have got the Id let's include it with web app.
 
 ![alt text](https://github.com/rishitha24/Web/blob/main/OAuth/images/4.jpeg)
 
-## Step -2: Initialization
+## Step -2: 
 
 We can include the clientId using a meta tag, just by mentioning the content properly!
 
@@ -44,7 +37,7 @@ We can include the clientId using a meta tag, just by mentioning the content pro
 
 [ Change the content part, add your client Id. ]
 
-## Step -3, 4, 5: SigningIn and Getting user profile data
+## Step -3:
 
 Just like anyother onclick functions that can be included for a button, we can simply call a function on data-success to get the basic profile of the user. When the application could successfully authenticate then, it returns us the following params, which can be used at the back to distinguish the users and helps the Developer in not having any invalid profiles!
 
@@ -56,9 +49,7 @@ function onSignIn(googleUser) {
 ```
 And just like profile.getName, we can even get other scope values!
 
-## Step -6: Signing out
-
-So, how do we sign out a user?
+And, how do we sign out a user?
 
 ```
     var auth2 = gapi.auth2.getAuthInstance();
@@ -85,4 +76,5 @@ By default the payloads are set to,https://www.googleapis.com/auth/userinfo.emai
 
 * https://developers.google.com/identity/sign-in/web/sign-in
 * https://developers.google.com/gmail/api/auth/about-auth
+
 
