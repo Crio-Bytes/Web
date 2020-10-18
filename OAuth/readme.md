@@ -64,8 +64,6 @@ Google uses the id_token to pass on the data payload in a JWT [JSON Web Token] f
 
 By default the payloads are set to,https://www.googleapis.com/auth/userinfo.email , https://www.googleapis.com/auth/userinfo.profile , https://www.googleapis.com/auth/plus.me which helps the developer to define the scopes and get the email, Id and profile. Rest params, if required can be added to the scopes and can access the information that is needed if available!
 
-![alt text](https://github.com/rishitha24/Web/blob/main/OAuth/images/5.jpeg)
-
 ## Conclusion
 
 1. It would be a practice to send [ id_token ] to the back instead of profileId. 
