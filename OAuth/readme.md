@@ -30,12 +30,12 @@ Firstly, Go to Google developers site : https://console.developers.google.com an
 
 ![alt text](https://github.com/rishitha24/Web/blob/main/OAuth/images/1.jpeg)
 
-Setup the information about your project so that google can show what types of consent the users gives your app to use information from google. In my case it is going to be email address and profile picture.
+Setup the information about your project so that google can show what types of consent the users gives your app to use information from Google. In my case it is going to be email address and profile picture.
 
 ![alt text](https://github.com/rishitha24/Web/blob/main/OAuth/images/2.jpeg)
 
 Now, go the credentials section and create an OAuth Client ID (It may ask you to configure the consent screen, do that! ).
-Here, when the project is deployed you need to add the webapp URL for now I am using localhost. (Rest details can be filled accordingly!)
+Here, when the project is deployed you need to add the webapp URL but for now I am using localhost. (Rest details can be filled accordingly!)
 
 ![alt text](https://github.com/rishitha24/Web/blob/main/OAuth/images/3.jpeg)
 
@@ -45,7 +45,7 @@ Now, the client Id and the secret are created which will authenticate the users 
 
 ## Step -2: Initialization
 
-1. You must include the Google Platform Library on the web page that integrate Google Sign-In. (Add it inside the head tag!)
+1. You must include the Google Platform Library on the web page that integrates Google Sign-In. (Add it inside the head tag!)
 
 ```
  <script src="https://apis.google.com/js/platform.js?onload=onLoad" async defer></script>
@@ -68,7 +68,7 @@ To use the default settings of Google signIn button,
 
 ## Step -4, 5: SigningIn and Getting user profile data
 
-when the application could succesfully authenticate then, it returns us the following params! Which can be used at the back to distinguish the users and helps us in not having invalid profiles!
+when the application could successfully authenticate then, it returns us the following params! Which can be used at the back to distinguish the users and helps the Developer in not having any invalid profiles!
 
 ```
 function onSignIn(googleUser) {
@@ -77,6 +77,7 @@ function onSignIn(googleUser) {
   console.log('Name: ' + profile.getName());
   console.log('Image URL: ' + profile.getImageUrl());
   console.log('Email: ' + profile.getEmail()); 
+  console.log('Token Id: ' + googleUser.getAuthResponse().id_token);
 }
 ```
 
@@ -100,7 +101,7 @@ function onSignIn(googleUser) {
 
 ## What has happened at the back?
 
-Google uses the id_token to pass on the data payload in a JWT [JSON Web Token] format. By default the payloads are set to, https://www.googleapis.com/auth/userinfo.email , https://www.googleapis.com/auth/userinfo.profile , https://www.googleapis.com/auth/plus.me which helps me to define the scopes and get the email, Id and profile. Rest, if required can be added to the scopes and get the information that is needed if available!
+Google uses the id_token to pass on the data payload in a JWT [JSON Web Token] format. By default the payloads are set to, https://www.googleapis.com/auth/userinfo.email , https://www.googleapis.com/auth/userinfo.profile , https://www.googleapis.com/auth/plus.me which helps the developer to define the scopes and get the email, Id and profile. Rest params, if required can be added to the scopes and can access the information that is needed if available!
 
 ![alt text](https://github.com/rishitha24/Web/blob/main/OAuth/images/5.jpeg)
 
