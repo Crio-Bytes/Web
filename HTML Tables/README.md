@@ -148,6 +148,9 @@ Final result should something look like:
 So there you have it. We've successfully created our first HTML table using basic HTML and CSS styling. 🎉🎉
 
 
+## REFERENCES
 
-
+1. [MDN Web Docs](https://developer.mozilla.org/en-US/)
+2. [Tutorials Point](https://www.tutorialspoint.com/index.htm)
+3. [Markdown Cheat Sheet](https://www.markdownguide.org/cheat-sheet/)
 
