@@ -26,31 +26,17 @@ Let's try here SignIn with Google using OAuth2.0 (ie), we will be having Google 
 
 ## Step -1: Configuration
 
-Firstly, Go to Google developers site : https://console.developers.google.com and create a project.
+Firstly, on the Google developers site : https://console.developers.google.com we need to create a project and get the credentials (ie), OAuth client Id and secret key to integrate it with the web app.
 
-![alt text](https://github.com/rishitha24/Web/blob/main/OAuth/images/1.jpeg)
+We can mention the domains where this Id can be used! (localhost for now!)
 
-Setup the information about your project so that google can show what types of consent the users gives your app to use information from Google. In my case it is going to be email address and profile picture.
-
-![alt text](https://github.com/rishitha24/Web/blob/main/OAuth/images/2.jpeg)
-
-Now, go the credentials section and create an OAuth Client ID (It may ask you to configure the consent screen, do that! ).
-Here, when the project is deployed you need to add the webapp URL but for now I am using localhost. (Rest details can be filled accordingly!)
-
-![alt text](https://github.com/rishitha24/Web/blob/main/OAuth/images/3.jpeg)
-
-Now, the client Id and the secret are created which will authenticate the users to the application!
+So, Now we have got the Id let's include it with web app.
 
 ![alt text](https://github.com/rishitha24/Web/blob/main/OAuth/images/4.jpeg)
 
 ## Step -2: Initialization
 
-1. You must include the Google Platform Library on the web page that integrates Google Sign-In. (Add it inside the head tag!)
-
-```
- <script src="https://apis.google.com/js/platform.js?onload=onLoad" async defer></script>
- ```
-2. Including the client Id for the application that was created. (Add it inside the head tag!)
+We can include the clientId using a meta tag, just by mentioning the content properly!
 
 ```
 <meta name="google-signin-client_id" content="YOUR_CLIENT_ID.apps.googleusercontent.com"> 
@@ -58,50 +44,34 @@ Now, the client Id and the secret are created which will authenticate the users 
 
 [ Change the content part, add your client Id. ]
 
-## Step -3: Rendering a button
+## Step -3, 4, 5: SigningIn and Getting user profile data
 
-To use the default settings of Google signIn button,
-
-```
-<div class="g-signin2" data-onsuccess="onSignIn"></div>
-```
-
-## Step -4, 5: SigningIn and Getting user profile data
-
-when the application could successfully authenticate then, it returns us the following params! Which can be used at the back to distinguish the users and helps the Developer in not having any invalid profiles!
+Just like anyother onclick functions that can be included for a button, we can simply call a function on data-success to get the basic profile of the user. When the application could successfully authenticate then, it returns us the following params, which can be used at the back to distinguish the users and helps the Developer in not having any invalid profiles!
 
 ```
 function onSignIn(googleUser) {
   var profile = googleUser.getBasicProfile();
-  console.log('ID: ' + profile.getId()); 
   console.log('Name: ' + profile.getName());
-  console.log('Image URL: ' + profile.getImageUrl());
-  console.log('Email: ' + profile.getEmail()); 
-  console.log('Token Id: ' + googleUser.getAuthResponse().id_token);
 }
 ```
+And just like profile.getName, we can even get other scope values!
 
 ## Step -6: Signing out
 
-1. creating the sign out button
+So, how do we sign out a user?
 
 ```
-<a href="#" onclick="signOut();">Sign out</a>
-```
-
-2. Signout function
-```
- function signOut() {
     var auth2 = gapi.auth2.getAuthInstance();
-    auth2.signOut().then(function () {
-      console.log('User signed out.');
-    });
-  }
+    auth2.signOut();
 ```
 
 ## What has happened at the back?
 
-Google uses the id_token to pass on the data payload in a JWT [JSON Web Token] format. By default the payloads are set to, https://www.googleapis.com/auth/userinfo.email , https://www.googleapis.com/auth/userinfo.profile , https://www.googleapis.com/auth/plus.me which helps the developer to define the scopes and get the email, Id and profile. Rest params, if required can be added to the scopes and can access the information that is needed if available!
+To debug what happened at the back in your browser, try “googleUser.getAuthResponse().id_token” and see the bearer token sent back from google.com,when there was a request to login.
+
+Google uses the id_token to pass on the data payload in a JWT [JSON Web Token] format. If you aren't familiar with JWT, take a look at jwt.io and paste your tokenId there which will give you the payloads that are present and might give you a better insight!
+
+By default the payloads are set to,https://www.googleapis.com/auth/userinfo.email , https://www.googleapis.com/auth/userinfo.profile , https://www.googleapis.com/auth/plus.me which helps the developer to define the scopes and get the email, Id and profile. Rest params, if required can be added to the scopes and can access the information that is needed if available!
 
 ![alt text](https://github.com/rishitha24/Web/blob/main/OAuth/images/5.jpeg)
 
@@ -110,3 +80,9 @@ Google uses the id_token to pass on the data payload in a JWT [JSON Web Token] f
 1. It would be a practice to send [ id_token ] to the back instead of profileId. 
 2. Because of the payloads we are able to define the scopes and access the data required to authenticate the user.
 3. And yes, now we could succesfully allow user to login with serve party [OAuth] and access the data that the developer requires for unique identity of the user! And that's how OAuth helps.
+
+## References
+
+* https://developers.google.com/identity/sign-in/web/sign-in
+* https://developers.google.com/gmail/api/auth/about-auth
+
