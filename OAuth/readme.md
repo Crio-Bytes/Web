@@ -11,8 +11,8 @@ Federated Login is an Authentication process where user gets authenticated via a
 When the user hits on a signIn button, a window pops up which will allow user to choose an account to login with! After this, 
 *Incremental Authorization* will occur (ie), it will access the request permissions from the user and Signs him in at the same time. So, we can understand that OAuth [Open Authorization] is all about authorization and not <i> Authentication </i>.
 
-Do you think, OAuth shares the password between the identity provider and the web application? No, it really doesn't. <br>
-  *OAuth doesn't share passwords between the identity provider and the user instead it shares the Authorization tokens!*
+> Do you think, OAuth shares the password between the identity provider and the web application? No, it really doesn't. <br>
+>    *OAuth doesn't share passwords between the identity provider and the user instead it shares the Authorization tokens!*
 
 ## Implementation...
 
@@ -25,6 +25,8 @@ Firstly, on the Google developers site : https://console.developers.google.com c
 We can mention the domains where this Id can be used while creating it in the credentials tab! (localhost for now!)
 
 > Refer to [this](images/3.jpeg) to know how to add Authorized Javasacript Origin!
+
+So, now we have got the clientId we can proceed with the integrating part!
 
 ![alt text](https://github.com/rishitha24/Web/blob/main/OAuth/images/4.jpeg)
 
