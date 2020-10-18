@@ -1,6 +1,6 @@
 # Integrating Login with Google to your Web application with OAuth
 
-##What is OAuth and why is it used for?
+## What is OAuth and why is it used for?
 
 Passwords would be difficult to remember everytime! Every website asks for one, for security issues most of the users will not choose to have the same password for all the websites. This would be annoying for both User and the Developer. Storing a lot of data will not be encouraged by the developers & remembering multiple passwords by the User is also not so easy. That one handy solution to this would be <u> Federated Login </u>
 
@@ -13,7 +13,7 @@ There will be a SignIn button, when the user hits on it a window pops up which w
 
 <b><u><i> Note: </i></u></b> OAuth doesn't share passwords between the identity provider and the user instead it shares the Authorization tokens!
 
-##Implementation Steps 
+## Implementation Steps 
 
 * Configuration
 * Initialization
@@ -24,12 +24,11 @@ There will be a SignIn button, when the user hits on it a window pops up which w
 
 Let's try here SignIn with Google using OAuth2.0 (ie), we will be having Google as an identity provider which indirectly means that the user who ever LogsIn to the application succesfully will surely have a proper profile at Google. 
 
-##Step -1: Configuration
+## Step -1: Configuration
 
 Firstly, Go to Google developers site : https://console.developers.google.com and create a project.
 
 ![alt text](https://github.com/rishitha24/Web/blob/main/OAuth/images/1.jpeg)
-
 Setup the information about your project so that google can show what types of consent the users gives your app to use information from google. In my case it is going to be email address and profile picture.
 
 ![alt text](https://github.com/rishitha24/Web/blob/main/OAuth/images/2.jpeg)
@@ -43,7 +42,7 @@ Now, the client Id and the secret are created which will authenticate the users 
 
 ![alt text](https://github.com/rishitha24/Web/blob/main/OAuth/images/4.jpeg)
 
-##Step -2: Initialization
+## Step -2: Initialization
 
 1. You must include the Google Platform Library on the web page that integrate Google Sign-In. (Add it inside the head tag!)
 
@@ -60,7 +59,7 @@ Now, the client Id and the secret are created which will authenticate the users 
 
 [ Change the content part, add your client Id. ]
 
-##Step -3: Rendering a button
+## Step -3: Rendering a button
 
 To use the default settings of Google signIn button,
 
@@ -69,7 +68,7 @@ To use the default settings of Google signIn button,
 
 ```
 
-##Step -4, 5: SigningIn and Getting user profile data
+## Step -4, 5: SigningIn and Getting user profile data
 
 when the application could succesfully authenticate then, it returns us the following params! Which can be used at the back to distinguish the users and helps us in not having invalid profiles!
 
@@ -84,7 +83,7 @@ function onSignIn(googleUser) {
 
 ```
 
-##Step -6: Signing out
+## Step -6: Signing out
 
 1. creating the sign out button
 
