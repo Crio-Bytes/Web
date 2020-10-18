@@ -5,11 +5,11 @@
 
 **You'll first need a HTML code editor to before you begin this module. There are a lot of options to choose from including:**
 
-1. Codepen
-2. Notepad ++
-3. VSCode
-4. Sublime Text3
-5. NetBeans
+1. `Codepen`
+2. `Notepad ++`
+3. `VSCode`
+4. `Sublime Text3`
+5. `NetBeans`
 
 All of these editors have user-friendly interfaces that enable you to manually enter the code. I'll be using Sublime Text3 for this module.  
 
@@ -138,9 +138,12 @@ as shown below
 
 ![](Images/img3.PNG)  
 
-Final result should something look like:
+So basically we're applying a solid black border of width 1px (pixels) and a padding of 10 pixels to our `table header` and `table cell` elements. The CSS padding property is used to generate space around an element's content, inside of any defined borders.  
+
+Final result should something look like:  
 
 ![](Images/img4.PNG)  
+
 
 So there you have it. We've successfully created our first HTML table using basic HTML and CSS styling. 🎉🎉
 
