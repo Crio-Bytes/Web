@@ -24,7 +24,7 @@ Firstly, on the Google developers site : https://console.developers.google.com c
 
 We can mention the domains where this Id can be used while creating it in the credentials tab! (localhost for now!)
 
-> Refer to [this](images/1.jpeg) to know how to add Authorized Javasacript Origin!
+> Refer to [this](images/3.jpeg) to know how to add Authorized Javasacript Origin!
 
 ![alt text](https://github.com/rishitha24/Web/blob/main/OAuth/images/4.jpeg)
 
