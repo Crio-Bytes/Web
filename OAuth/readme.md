@@ -104,7 +104,8 @@ Google uses the id_token to pass on the data payload in a JWT [JSON Web Token] f
 
 ![alt text](https://github.com/rishitha24/Web/blob/main/OAuth/images/5.jpeg)
 
-* It would be a practice to send [ id_token ] to the back instead of profileId. 
-* Because of the payloads we are able to define the scopes and access the data required to authenticate the user.
+## Conclusion
 
-* And yes, now we could succesfully allow user to login with serve party [OAuth] and access the data that the developer requires for unique identity of the user! And that's how OAuth helps.
+1. It would be a practice to send [ id_token ] to the back instead of profileId. 
+2. Because of the payloads we are able to define the scopes and access the data required to authenticate the user.
+3. And yes, now we could succesfully allow user to login with serve party [OAuth] and access the data that the developer requires for unique identity of the user! And that's how OAuth helps.
