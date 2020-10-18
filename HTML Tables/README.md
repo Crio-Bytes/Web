@@ -1,4 +1,5 @@
-# How To Create a table using HTML and basic CSS from scratch
+# How To Create a table using HTML and basic CSS from scratch  
+
 
 ### Step 1: Choose a HTML editor
 
@@ -7,21 +8,19 @@
 1. Codepen
 2. Notepad ++
 3. VSCode
-4. Sublime Text
+4. Sublime Text3
 5. NetBeans
-6. CoffeeCup
 
 All of these editors have user-friendly interfaces that enable you to manually enter the code. I'll be using Sublime Text3 for this module.  
 
 
 ### Step 2: Create two new files with .html and .css extensions
 
-// IMAGE GOES HERE
-
 The next step is to specify that you intend to create a new HTML file as well as a CSS file. Do this by creating a new file and then saving it with the .html extension as shown. It’s easy. Just type the file name (whatever you choose), and then follow it with **.html**. For example-> ``index.html``.
 
 In a similar way, type in any file name (your choice) and save it with **.css**. For example-> ``style.css``.  
 
+![]("Img1.PNG")
 
 ### Step 3: Start typing in the HTML code inside the editor
 
@@ -42,7 +41,7 @@ Start your workflow by typing in the basic HTML skeleton code in the .html file.
 </html>
 ```
 
-We'll use `<link rel="stylesheet" href=""/>` statement to add external CSS to our HTML code.  
+We'll use `<link rel="stylesheet" href=""/>` statement to add external CSS to our HTML code in further steps.  
 
 
 ### Step 4: Getting acquainted with HTML table tags
@@ -106,7 +105,12 @@ Lets take it one step at a time okay. Firstly, the `<tr>` tag defines a HTML row
 We're using inline CSS inside the `<style>` tag. In this way we're adding CSS styling directly inside our HTML tags. 
 You’ll notice that each time you want to create a new field in your table, you have to type the command `<tr>` and then close the command with `</tr>`. Same goes for every other HTML tags.  
 
-You can add as many fields as you want inside the table. We've restricted ourselves to three rows and three columns for now for the sake of simplicity. You can add as many columns and row field inputs as you want. It's solely your choice.  
+Let me explain the inline CSS statements used here.  
+
+1. ***text-align***: The text-align property specifies the horizontal alignment of text in an element.  
+2. ***border***: The text-align property specifies the horizontal alignment of text in an element.
+
+We've restricted ourselves to three rows and three columns for now for the sake of simplicity. You can add as many columns and row field inputs as you want. It's solely your choice.  
 
 
 ### Step 6: Adding CSS styling to our HTML table
