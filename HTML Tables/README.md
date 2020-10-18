@@ -1,4 +1,4 @@
-## Introduction  
+# Introduction  
 
 A table is an arrangement of data in rows and columns, or possibly in a more complex structure. Tables are widely used in communication, research, and data analysis and are assets in the real-world.
 
