@@ -49,13 +49,11 @@ Now, the client Id and the secret are created which will authenticate the users 
 
 ```
  <script src="https://apis.google.com/js/platform.js?onload=onLoad" async defer></script>
-
  ```
-2. Including the client Id for the application that was created. 
+2. Including the client Id for the application that was created. (Add it inside the head tag!)
 
 ```
-<meta name="google-signin-client_id" content="YOUR_CLIENT_ID.apps.googleusercontent.com"> (Add it inside the head tag!)
-
+<meta name="google-signin-client_id" content="YOUR_CLIENT_ID.apps.googleusercontent.com"> 
 ```
 
 [ Change the content part, add your client Id. ]
@@ -66,7 +64,6 @@ To use the default settings of Google signIn button,
 
 ```
 <div class="g-signin2" data-onsuccess="onSignIn"></div>
-
 ```
 
 ## Step -4, 5: SigningIn and Getting user profile data
@@ -81,7 +78,6 @@ function onSignIn(googleUser) {
   console.log('Image URL: ' + profile.getImageUrl());
   console.log('Email: ' + profile.getEmail()); 
 }
-
 ```
 
 ## Step -6: Signing out
@@ -90,7 +86,6 @@ function onSignIn(googleUser) {
 
 ```
 <a href="#" onclick="signOut();">Sign out</a>
-
 ```
 
 2. Signout function
@@ -101,7 +96,6 @@ function onSignIn(googleUser) {
       console.log('User signed out.');
     });
   }
-
 ```
 
 ## What has happened at the back?
