@@ -11,7 +11,7 @@ Federated Login is an Authentication process where user gets authenticated via a
 There will be a SignIn button, when the user hits on it a window pops up which will allow user to choose an account to login with! After this, 
 <i> Incremental Authorization </i> will occur (ie), it will access the request permissions from the user and Signs him in at the same time. So, we can understand that OAuth [Open Authorization] is all about authorization and not <i> Authentication </i>.
 
-<b><u><i> Note: <i></u></b> OAuth doesn't share passwords between the identity provider and the user instead it shares the Authorization tokens!
+<b><u><i> Note: </i></u></b> OAuth doesn't share passwords between the identity provider and the user instead it shares the Authorization tokens!
 
 ##Implementation Steps 
 
@@ -28,20 +28,20 @@ Let's try here SignIn with Google using OAuth2.0 (ie), we will be having Google 
 
 Firstly, Go to Google developers site : https://console.developers.google.com and create a project.
 
-Image -1 
+![alt text](https://github.com/rishitha24/Web/blob/main/OAuth/images/1.jpeg)
 
 Setup the information about your project so that google can show what types of consent the users gives your app to use information from google. In my case it is going to be email address and profile picture.
 
-Image - 2
+![alt text](https://github.com/rishitha24/Web/blob/main/OAuth/images/2.jpeg)
 
 Now, go the credentials section and create an OAuth Client ID (It may ask you to configure the consent screen, do that! ).
 Here, when the project is deployed you need to add the webapp URL for now I am using localhost. (Rest details can be filled accordingly!)
 
-Image - 3
+![alt text](https://github.com/rishitha24/Web/blob/main/OAuth/images/3.jpeg)
 
 Now, the client Id and the secret are created which will authenticate the users to the application!
 
-Image - 4
+![alt text](https://github.com/rishitha24/Web/blob/main/OAuth/images/4.jpeg)
 
 ##Step -2: Initialization
 
@@ -108,6 +108,6 @@ function onSignIn(googleUser) {
 
 Google uses the id_token to pass on the data payload in a JWT [JSON Web Token] format. By default the payloads are set to, https://www.googleapis.com/auth/userinfo.email , https://www.googleapis.com/auth/userinfo.profile , https://www.googleapis.com/auth/plus.me which helps me to define the scopes and get the email, Id and profile. Rest, if required can be added to the scopes and get the information that is needed if available!
 
-Image -5
+![alt text](https://github.com/rishitha24/Web/blob/main/OAuth/images/5.jpeg)
 
 It would be a practice to send [ id_token ] to the back instead of profileId. Because of the payloads we are able to define the scopes and access the data required to authenticate the user.
