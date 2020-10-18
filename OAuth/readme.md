@@ -29,6 +29,7 @@ Let's try here SignIn with Google using OAuth2.0 (ie), we will be having Google 
 Firstly, Go to Google developers site : https://console.developers.google.com and create a project.
 
 ![alt text](https://github.com/rishitha24/Web/blob/main/OAuth/images/1.jpeg)
+
 Setup the information about your project so that google can show what types of consent the users gives your app to use information from google. In my case it is going to be email address and profile picture.
 
 ![alt text](https://github.com/rishitha24/Web/blob/main/OAuth/images/2.jpeg)
