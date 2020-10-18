@@ -20,7 +20,7 @@ The next step is to specify that you intend to create a new HTML file as well as
 
 In a similar way, type in any file name (your choice) and save it with **.css**. For example-> ``style.css``.  
 
-![]("Img1.PNG")
+![](Images/Img1.PNG)
 
 ### Step 3: Start typing in the HTML code inside the editor
 
@@ -100,6 +100,9 @@ Once we've reached this stage, it's now time to get our hands dirty. So go ahead
 </html>
 ```
 
+At this stage, our table will look something like this:  
+![](Images/img2.PNG)  
+
 Lets take it one step at a time okay. Firstly, the `<tr>` tag defines a HTML row and directs the succeeding code to be arranged in the form of rows. The `<th>` tag now defines the table column heading names in bold letters and the `<td>` tag dictates each table cell value, which is apparently not very clear at this point. We'll be adding CSS to improve this condition.  
 
 We're using inline CSS inside the `<style>` tag. In this way we're adding CSS styling directly inside our HTML tags. 
@@ -125,19 +128,19 @@ I've named my CSS file as `style.css`. You can use any name of your choice but m
 
 Go ahead and paste the following code in your code editor:
 
-``
-th, td{
-	border: 1px solid black;
-	padding: 10px;
+```
+th, td{  
+	border: 1px solid black;  
+	padding: 10px;  
 }
-``
+```
 as shown below
 
-// IMAGE GOES HERE
+![](Images/img3.PNG)  
 
 Final result should something look like:
 
-//IMAGE GOES HERE
+![](Images/img4.PNG)  
 
 So there you have it. We've successfully created our first HTML table using basic HTML and CSS styling. 🎉🎉
 
