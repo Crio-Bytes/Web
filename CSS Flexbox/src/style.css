@@ -14,19 +14,16 @@
 	width: 200px;
 	height: 200px;
 	background-color: #4d4dff;
-	order: 3;
 }
 
 .child2{
 	width: 200px;
 	height: 200px;
 	background-color: #00e600;
-	order: 1;
 }
 
 .child3{
 	width: 200px;
 	height: 200px;
 	background-color: #ff3333;
-	order: 2;
 }
