@@ -1,0 +1,27 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "sandip2224",
+      "name": "Sandipan Das",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/61842142?v=4",
+      "profile": "https://sandipan2224.herokuapp.com",
+      "contributions": [
+        "code",
+        "doc",
+        "ideas",
+        "content"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "Web",
+  "projectOwner": "Crio-Bytes",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true
+}
