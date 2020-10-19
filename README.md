@@ -1,5 +1,5 @@
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-3-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 # Introduction
@@ -40,6 +40,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
   <tr>
     <td align="center"><a href="https://sandipan2224.herokuapp.com"><img src="https://avatars3.githubusercontent.com/u/61842142?v=4" width="100px;" alt=""/><br /><sub><b>Sandipan Das</b></sub></a><br /><a href="https://github.com/Crio-Bytes/Web/commits?author=sandip2224" title="Code">💻</a> <a href="https://github.com/Crio-Bytes/Web/commits?author=sandip2224" title="Documentation">📖</a> <a href="#ideas-sandip2224" title="Ideas, Planning, & Feedback">🤔</a> <a href="#content-sandip2224" title="Content">🖋</a></td>
     <td align="center"><a href="https://github.com/rishitha24"><img src="https://avatars2.githubusercontent.com/u/44165491?v=4" width="100px;" alt=""/><br /><sub><b>Rishitha</b></sub></a><br /><a href="https://github.com/Crio-Bytes/Web/commits?author=rishitha24" title="Code">💻</a> <a href="https://github.com/Crio-Bytes/Web/commits?author=rishitha24" title="Documentation">📖</a> <a href="#ideas-rishitha24" title="Ideas, Planning, & Feedback">🤔</a> <a href="#content-rishitha24" title="Content">🖋</a></td>
+    <td align="center"><a href="https://github.com/Nikhilananddev"><img src="https://avatars1.githubusercontent.com/u/58386262?v=4" width="100px;" alt=""/><br /><sub><b>Nikhilananddev</b></sub></a><br /><a href="https://github.com/Crio-Bytes/Web/commits?author=Nikhilananddev" title="Code">💻</a> <a href="https://github.com/Crio-Bytes/Web/commits?author=Nikhilananddev" title="Documentation">📖</a> <a href="#ideas-Nikhilananddev" title="Ideas, Planning, & Feedback">🤔</a> <a href="#content-Nikhilananddev" title="Content">🖋</a></td>
   </tr>
 </table>
 
