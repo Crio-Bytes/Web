@@ -28,6 +28,18 @@
         "ideas",
         "content"
       ]
+    },
+    {
+      "login": "Nikhilananddev",
+      "name": "Nikhilananddev",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/58386262?v=4",
+      "profile": "https://github.com/Nikhilananddev",
+      "contributions": [
+        "code",
+        "doc",
+        "ideas",
+        "content"
+      ]
     }
   ],
   "contributorsPerLine": 7,
