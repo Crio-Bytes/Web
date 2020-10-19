@@ -1,7 +1,8 @@
-# Introduction
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 [![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
+
+# Introduction
 
 The **World Wide Web** (**WWW**), commonly known as **the Web**, is an [information system](https://en.wikipedia.org/wiki/Information_system) where documents and other [web resources](https://en.wikipedia.org/wiki/Web_resource) are identified by [Uniform Resource Locators](https://en.wikipedia.org/wiki/URL) (URLs, such as https://example.com/), which may be interlinked by [hypertext](https://en.wikipedia.org/wiki/Hypertext), and are accessible over the [Internet](https://en.wikipedia.org/wiki/Internet). The resources of the Web are transferred via the [Hypertext Transfer Protocol](https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol) (HTTP) and may be accessed by users by a [software application](https://en.wikipedia.org/wiki/Software_application) called a *[web browser](https://en.wikipedia.org/wiki/Web_browser)* and are published by a software application called a *[web server](https://en.wikipedia.org/wiki/Web_server).* The World Wide Web is not synonymous with the Internet, which  pre-existed the Web in some form by over two decades and upon whose  technologies the Web is built.
 
