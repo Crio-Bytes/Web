@@ -65,7 +65,7 @@ We'll proceed with an introduction to relevant HTML tags. The commonly used HTML
 Now we can start learning about CSS flexbox and it's awesome properties.  
 
 
-### Activity 4: Adding relevant HTML code inside the HTML file and styling it with CSS
+### Activity 5: Adding relevant HTML code inside the HTML file and styling it with CSS
 
 Now go ahead and type in the following code inside the HTML skeleton code.  
 
@@ -123,13 +123,15 @@ So go in and add this basic CSS code inside your `.css` file as follows:
 	background-color: #ff3333;
 }
 ```
-
-At this stage we'll see something like this in our web browser:  
-
+<details>
+<summary>Done with the task? Expand this to see the expected output</summary>  
+	
 ![](images/op2.PNG)  
 
+</details>	
 
-### Activity 5: Adding CSS flexbox properties to style our `<div>` tags  
+
+### Activity 6: Adding different CSS flexbox properties to style our `<div>` tags  
 
 Our first action will be to assign `display` property as **flex** for the parent `<div>` tag as follows:  
 ```
@@ -138,11 +140,11 @@ Our first action will be to assign `display` property as **flex** for the parent
 }
 ```
 
-There are quite a few properties when it comes to CSS flexbox. Le'ts go through them one at a time. 
+There are quite a few properties when it comes to CSS flexbox. Let's go through them one at a time. 
 
 1. `flex-direction`   
 
-It sets the direction of the flexible items inside the parent `<div>` element. It's pre-defined values include:  
+**It sets the direction of the flexible items inside the parent `<div>` element.** It's pre-defined values include:  
 
 a. ***row***: This is the default value. The flexible items are displayed horizontally, as a row. Add it to the parent `<div>` tag as follows:  
 ```
@@ -163,19 +165,33 @@ b. **column**: Adding this value will align the `<div>` tags in a column. Apply 
 }
 ```  
 
-The output will be something like this now:
+<details>
+<summary>Done with the job? Expand to see the expected output</summary>
 ![](images/op4.PNG)  
+</details>  
 
 ### MICRO-TASK
 
-> Explore the **row-reverse** and **column-reverse** properties under flex-direction and try to apply it to the `<div>` tags (HINT: flex-direction: row-reverse | column-reverse)  
+> Explore the **row-reverse** and **column-reverse** properties under flex-direction and try to apply it to the `<div>` tags 
+<details>
+<summary>Need a hint? Expand to reveal your clue</summary>
+	
+```
+.parent{
+  display: flex;
+  flex-direction: column;
+}
+```  
+</details>  
+
+
 2. `justify-content`  
 
 The justify-content property aligns the flexible container's items when the items do not use all available space on the main-axis. It's pre-defined values include:  
 
 a. ***flex-start***:
 
-It's the default value for this property. Items are positioned at the beginning of the container. Apply this property as follows:  
+**It's the default value for this property. Items are positioned at the beginning of the container.** Apply this property as follows:  
 ```
 .parent{
   display: flex;
@@ -196,8 +212,10 @@ Adding this value will position the items in the middle of the container. Apply 
 }
 ```  
 
-The output will be something like this now:
+<details>
+<summary>Done with the task? Expand to see the expected output</summary>
 ![](images/op5.PNG)  
+</details>
 
 c. ***space-between***:
 
@@ -209,16 +227,30 @@ Adding this value will position the items with space between the lines. Apply th
 }
 ```  
 
-The output will be something like this now:
+<details>
+<summary>Done with the task? Expand to see the expected output</summary>
 ![](images/op5.1.PNG)  
+</details>
 
 ### MICRO-TASK
 
-> Explore the **flex-end**, **space-around** and **space-evenly** properties under flex-direction and try finding out the result (HINT: justify-content: flex-end | space-around | space-evenly) 
+> Explore the **flex-end**, **space-around** and **space-evenly** properties under flex-direction and try finding out the result  
+
+<details>
+<summary>Need a hint? Expand to reveal your clue</summary>
+
+```
+.parent{
+  display: flex;
+  justify-content: flex-end | space-around | space-evenly;
+}
+```  
+</details>  
+
 
 3. `align-items`  
 
-The align-items property specifies the default alignment for items inside the flexible container. It's pre-defined values include:  
+**The align-items property specifies the default alignment for items inside the flexible container.** It's pre-defined values include:  
 
 a. ***flex-start***:  
 
@@ -245,15 +277,58 @@ This value positions items at the bottom of the container. It's implemented as f
 }
 ```  
 
-The output will be something like this now:
+<details>
+<summary>Done with the task? Expand to see the expected output</summary>
 ![](images/op6.PNG)  
+</details>  
 
 ### MICRO-TASK
 
 > Explore the **center**, **baseline** and **stretch** properties under `align-items` and see what you get (HINT: align-items: center | stretch | baseline)  
 
+<details>
+<summary>Need a hint? Expand to reveal your clue</summary>
 
-4. `align-items`  
+```
+.parent{
+  display: flex;
+  align-items: center | stretch | baseline;
+}
+```  
+</details>  
+
+4. `order`  
+
+**The order CSS property sets the order to lay out an item in a flex or grid container.** It's pre-defined values include:  
+
+a. ***Number***:  
+
+This value accepts a numerical value that directs the position of the children `<div>` tags according to size of the value. Lower the number, higher is it's priority and is thus positioned near the beginning of the flexbox.  
+
+Let me clarify this through an example as shown below: 
+
+Type in the following CSS code as shown below:  
+
+![](images/code8.PNG)  
+
+The output should be something like this:  
+
+![](images/op8.PNG)  
+
+So what's happening here is this:  
+
+`<div class="child1">` has an assigned order of 3 (blue coloured). So it's been pushed to the third position in the flexbox. Similarly, since `<div class="child2">` has an order of 1, it has the highest priority and is thus assigned the first position in the flexbox (green coloured). Finally, `<div class="child3">` having an order of 2 finds itself wedged midway between the other two `<div>` tags at second position (red coloured).
 
 
+> Refer to the completed code on CSS flexbox here: [CSS flexbox](./src/index.html)  
+
+## CONCLUSION  
+
+Congratulations on reaching this stage. I'm sure you've learnt a lot from this microbyte. You should now have understood the basics of CSS flexbox and how handy it is when it comes to aligning items inside a webpage and making responsive webpage designs. 🎉🎉
+
+## REFERENCES  
+
+1. [W3Schools](https://www.w3schools.com/css/)
+2. [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/CSS)
+3. [Tutorials Point](https://www.tutorialspoint.com/index.htm)
 
