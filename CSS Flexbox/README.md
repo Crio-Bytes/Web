@@ -6,6 +6,8 @@ CSS Flexible Box Layout, commonly known as CSS Flexbox, is a CSS3 web layout mod
 
 You'll need a working HTML code editor and a web browser (Chrome, Safari, etc) for this awesome activity. Let's go ahead and jump right in!!!
 
+![](images/preview1.jpg)
+
 ## Activities
 
 ### Activity 1: Choose a HTML editor
