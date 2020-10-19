@@ -169,7 +169,9 @@ b. **column**: Adding this value will align the `<div>` tags in a column. Apply 
 
 <details>
 <summary>Done with the job? Expand to see the expected output</summary>
+	
 ![](images/op4.PNG)  
+
 </details>  
 
 ### MICRO-TASK
@@ -215,8 +217,10 @@ Adding this value will position the items in the middle of the container. Apply 
 ```  
 
 <details>
-<summary>Done with the task? Expand to see the expected output</summary>
+<summary>Done with the task? Expand to see the expected output</summary>  
+	
 ![](images/op5.PNG)  
+
 </details>
 
 c. ***space-between***:
@@ -230,8 +234,10 @@ Adding this value will position the items with space between the lines. Apply th
 ```  
 
 <details>
-<summary>Done with the task? Expand to see the expected output</summary>
+<summary>Done with the task? Expand to see the expected output</summary>  
+	
 ![](images/op5.1.PNG)  
+
 </details>
 
 ### MICRO-TASK
@@ -280,8 +286,10 @@ This value positions items at the bottom of the container. It's implemented as f
 ```  
 
 <details>
-<summary>Done with the task? Expand to see the expected output</summary>
+<summary>Done with the task? Expand to see the expected output</summary>  
+	
 ![](images/op6.PNG)  
+
 </details>  
 
 ### MICRO-TASK
