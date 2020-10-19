@@ -1,5 +1,5 @@
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-4-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-5-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 # Introduction
@@ -42,6 +42,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://github.com/rishitha24"><img src="https://avatars2.githubusercontent.com/u/44165491?v=4" width="100px;" alt=""/><br /><sub><b>Rishitha</b></sub></a><br /><a href="https://github.com/Crio-Bytes/Web/commits?author=rishitha24" title="Code">💻</a> <a href="https://github.com/Crio-Bytes/Web/commits?author=rishitha24" title="Documentation">📖</a> <a href="#ideas-rishitha24" title="Ideas, Planning, & Feedback">🤔</a> <a href="#content-rishitha24" title="Content">🖋</a></td>
     <td align="center"><a href="https://github.com/Nikhilananddev"><img src="https://avatars1.githubusercontent.com/u/58386262?v=4" width="100px;" alt=""/><br /><sub><b>Nikhilananddev</b></sub></a><br /><a href="https://github.com/Crio-Bytes/Web/commits?author=Nikhilananddev" title="Code">💻</a> <a href="https://github.com/Crio-Bytes/Web/commits?author=Nikhilananddev" title="Documentation">📖</a> <a href="#ideas-Nikhilananddev" title="Ideas, Planning, & Feedback">🤔</a> <a href="#content-Nikhilananddev" title="Content">🖋</a></td>
     <td align="center"><a href="https://github.com/amoghrajesh"><img src="https://avatars2.githubusercontent.com/u/35884252?v=4" width="100px;" alt=""/><br /><sub><b>Amogh Rajesh Desai</b></sub></a><br /><a href="https://github.com/Crio-Bytes/Web/pulls?q=is%3Apr+reviewed-by%3Aamoghrajesh" title="Reviewed Pull Requests">👀</a> <a href="#eventOrganizing-amoghrajesh" title="Event Organizing">📋</a></td>
+    <td align="center"><a href="https://crio.do/"><img src="https://avatars0.githubusercontent.com/u/51743602?v=4" width="100px;" alt=""/><br /><sub><b>Crio.Do</b></sub></a><br /><a href="#eventOrganizing-CrioDo" title="Event Organizing">📋</a></td>
   </tr>
 </table>
 
