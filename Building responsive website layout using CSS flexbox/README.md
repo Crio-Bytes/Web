@@ -2,9 +2,11 @@
 
 CSS Flexible Box Layout, commonly known as CSS Flexbox, is a CSS3 web layout model. The flex layout allows responsive elements within a container to be automatically arranged depending upon screen size.  
 
+In this micro-byte, we'll create a fully responsive webpage design layout consisting of multiple sections. We'll employ CSS flexbox properties to aid in our website styling and learn a lot of things along the way.  
+
 ## Prerequisites
 
-It's preferable to have working introductory knowledge on HTML markup and CSS styling. You'll need a working HTML code editor and a webkit-based web browser (Chrome, Safari, etc) for this awesome activity. 
+It's preferable to have working introductory knowledge on HTML markup and CSS styling. You'll need a working HTML code editor and a web browser(Chrome, Safari, etc) for this awesome activity. 
 
 ## Activities  
 
