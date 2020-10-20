@@ -172,10 +172,11 @@ We want our flex-items to align vertically on a smaller viewport for enhanced re
   
 </details>
 
-Your final result should look something like this:  
+**Your final result should look something like this:**  
 
 <p align="center"><img src="images/Activity-5/Preview.gif"/></p>
 
+> You can refer to `images/Activity-5/output/PNG` as well to view your final responsive web design.  
 
 ## CONCLUSION  
 
