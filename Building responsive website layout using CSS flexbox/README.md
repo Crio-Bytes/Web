@@ -69,7 +69,7 @@ Our fictitious website will comprise of 4 major components, namely:
 > e. Finally, let's build a **footer** section. So, what will you use for this? (P.S.- Think how you built the **header** section). Assign it an identifiable classname (here, I've used **footer** as classname) and add a small description inside the footer section.  
 
 
-***Refer to `Activity-2` under `REFERENCES` section near the bottom for relevant code.***
+**Refer to `Activity-2` under `REFERENCES` section near the bottom for relevant code.**
 
 ### Micro-References
 1. [HTML Block Elements](https://www.w3schools.com/html/html_blocks.asp)
@@ -93,6 +93,7 @@ background-color: #1abc9c;
 color: #fff;  
 text-align: center;
 ```  
+</details>
 
 > b. Now we'll first align the anchor tags next to each other using CSS flexbox. Could you do it? Now apply a definitive padding and text-color to the anchor tags to add a pop effect to the tags.  
 > 
