@@ -82,7 +82,7 @@ We'll add CSS now to add a stylised appeal to our website.
 
 ### Tasks    
 
-> a. Let's start off by referencing the header section using it's assigned classname inside our CSS source file. We'll add a definitive padding and background color to the header section and assign contrasting text colors to the subheading and paragraph inside it. We'll also align the text centrally inside the header section.
+> a. Let's start off by referencing the header section using it's assigned classname inside our CSS source file. We'll add a definitive ***padding*** and ***background color*** to the header section and assign contrasting ***text colors*** to the subheading and paragraph inside it. We'll also ***align the text*** centrally inside the header section.
 
 <details>
 <summary> Need a hint? Expand to know more</summary>  
@@ -91,14 +91,15 @@ We'll add CSS now to add a stylised appeal to our website.
 padding: 60px;  
 background-color: #1abc9c;  
 color: #fff;  
+text-align: center;
 ```  
 
 > b. Now we'll first align the anchor tags next to each other using CSS flexbox. Could you do it? Now apply a definitive padding and text-color to the anchor tags to add a pop effect to the tags.  
 > 
-> c. Finally add a hover effect to the anchor tags using pre-defined CSS pseudo-classes.   
+> c. Finally add a hover effect to the anchor tags using pre-defined CSS **pseudo-classes**.   
 
 
-***Refer to `Activity-3` under `REFERENCES` section near the bottom for relevant code.***  
+**Refer to `Activity-3` under `REFERENCES` section near the bottom for relevant code.**  
 
 ### Micro-References
 1. [CSS Flex Property](https://www.w3schools.com/css/css3_flexbox.asp)  
@@ -108,14 +109,14 @@ color: #fff;
 
 ### Tasks    
 
-> a. Now we'll position the two <**div**> tags namely **left** and **right** adjacent to each other. Let's use display property `flex` to achieve that. 
+> a. Now we'll ***align*** the two block sections enclosed inside the common block section (from Activity-2) adjacent to each other. You'll need a basic CSS property to do so.
 > 
-> b. Now we'll assign different widths to the children <**div**> tags using property named **flex** (P.S.: It's a flexbox substitute for **width**). Go ahead and assign widths of 30% and 70% to the `left` and `right` <**div**> tags respectively. Once you're done with that, we'll assign different background colours to our children `<div>` tags and add consistent padding to both the div elements.  
+> b. Now we'll assign different ***widths*** to the children block tags (preferably 3:7 width ratio) respectively. Once you're done with that, we'll assign different ***background colours*** to both the elements and add consistent ***padding*** to them.  
 > 
-> c. At this stage, we need to assign a definitive padding to our images (represented using `div` tags) as well as add consistent background-color to it.  So go ahead and add some padding and background-color to the **images** based on your imagination.  
+> c. At this stage, we need to assign a definitive ***padding*** to our images (represented using block tags as well) plus add consistent ***background-color*** to it. So go ahead and add some padding and background-color to the **images** based on your imagination.  
 >  
 
-***Facing issues? Refer to `Activity-4` under `REFERENCES` section near the bottom for relevant code.***
+**Facing issues? Refer to `Activity-4` under `REFERENCES` section near the bottom for relevant code.**
 
 ### Micro-References
 1. [CSS Display Property](https://www.w3schools.com/css/css_display_visibility.asp)
@@ -128,11 +129,11 @@ We've almost reached the end of this Crio-byte. That's no small feat!!!
 
 ### Tasks  
 
-> a. So now we'll add padding to the footer section as well as a consistent background-color to it. I leave it entirely upto your imagination. If you're unable to add styling or facing some other issues, just look below: 
+> a. So now we'll add ***padding*** to the footer section as well as a ***consistent background-color*** to it. I leave it entirely upto your imagination. If you're unable to add styling or facing some other issues, just look below: 
 > 
-> - Finally we'll add a media query to aid in responsive design on a smaller viewport. Don't know what a media query is? No worries. We've attached a link in the `References` section explaining all about it.  
+> - Finally we'll add a ***media query*** to aid in responsive design on a smaller viewport. Don't know what a media query is? No worries. We've attached a link in the `References` section explaining all about it.  
 > 
-> So now we'll create a media query that triggers on all devices below 768 pixels.  
+> So now we have create a media query that triggers on all devices below 768 pixels.  
 
 <details>
   <summary>Need a hint? Expand to know more </summary>
@@ -145,7 +146,7 @@ We've almost reached the end of this Crio-byte. That's no small feat!!!
   
 </details>
 
-> b. We want our flex-items to align vertically on a smaller viewport for enhanced readability. So go ahead and add necessary code to the navbar and parent <**div**> tags that does the same. Think?.....
+> b. We want our flex-items to align ***vertically*** on a smaller viewport for enhanced readability. So go ahead and apply the necessary styling to the navbar and parent block tag. 
 
 <details>
   <summary>Need a hint? Expand to know more </summary>
