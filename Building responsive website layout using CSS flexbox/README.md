@@ -4,6 +4,8 @@ CSS Flexible Box Layout, commonly known as CSS Flexbox, is a CSS3 web layout mod
 
 In this micro-byte, we'll create a fully responsive webpage design layout consisting of multiple sections. We'll employ CSS flexbox properties to aid in our website styling and learn a lot of things along the way.  
 
+Your task is to learn how to implement the skeleton of the website using HTML markup through small tasks which may include writing code in place of `TODO` comments, adding necessary CSS to implement a structured layout and using media queries to build a responsive design. We believe that you learn by doing!
+
 ## Prerequisites
 
 It's preferable to have working introductory knowledge on HTML markup and CSS styling. You'll need a working HTML code editor and a web browser(Chrome, Safari, etc) for this awesome activity. 
@@ -54,17 +56,18 @@ Our fictitious website will comprise of 4 major components, namely:
 
 ### Tasks    
 
-> a. Let's start by adding a header section using HTML **<**div>** tag and assigning it a classname **header**. Add some <**h1**>-based heading and paragraph (<**p**>) element in it as well.
+> a. Let's start by adding a **header** section using HTML markup and assigning an experimental classname to it. Add a ***title heading*** and a ***small paragraph*** in it as well to emphasize on content.
 >
-> b. Now add a block element (<**div**>) inside the body and assign it a classname **navbar**. Add 4 anchor tags inside the <**div**> tags and assign names as per your choice.  
+> b. Now create a ***horizontal navigation bar***. Done?..... So now go ahead and insert ***three to four anchor tags*** inside it and assign names to them as per your choice.  
 >
-> c. Now we'll start working with the actual body content of our website.  
+> c. Let's start working with the actual body content of our website.  
 >
-> So go ahead and create a <**div**> element with an random classname (here, I've used classname as **left**). We'll also add a subheading (**h2**) and another <**div**> tag with an experimental classname inside our parent <**div**> tag. Finally we'll add a fictitious description beneath it using the <**p**> element as shown below.
+> We'll create our first body sectional content using any block element of your choice and assign it an experimental classname (here, I've used classname as **left**). We'll also add a ***subheading*** and an ***image representation*** with necessary ***paragraph-based description*** below it. 
 >
-> d. Next we'll create a second <**div**> element with an random classname (here, I've used classname as **right**) and assign the exact same contents to this <**div**> as well. Enclose both the <**div**> tags inside a container <**div**> tag and assign it an experimental classname. (here, I've used **parent** as the classname)
+> d. Next we'll create our second sectional content (try thinking along the lines of block elements) and assign it a random classname to it (here, I've used classname as **right**). Now we'll assign the exact same contents to this body section as well. Finally, go ahead and enclose both the sectional contents (from subtasks ***c*** and ***d***) within a common HTML element and assign it a non-ambiguous classname as well (here, I've used **parent** as the classname).
 > 
-> e. Finally, let's add a footer section. We'll be using a <**div**> element for this purpose. Assign a non-ambiguous classname to it (here, I've used **footer** as classname) and add a small description inside this <**div**> tag as shown below.  
+> e. Finally, let's build a **footer** section. So, what will you use for this? (P.S.- Think how you built the **header** section). Assign it an identifiable classname (here, I've used **footer** as classname) and add a small description inside the footer section.  
+
 
 ***Refer to `Activity-2` under `REFERENCES` section near the bottom for relevant code.***
 
@@ -75,21 +78,27 @@ Our fictitious website will comprise of 4 major components, namely:
 
 ### Activity 3: Adding CSS styling to the header section and navbar
 
-We'll add CSS now to add proper styling to our website.  
+We'll add CSS now to add a stylised appeal to our website.  
 
 ### Tasks    
 
-> a. Let's start off by referencing the header section using it's assigned classname inside our CSS source file. We'll add a definitive padding and background color to our <**div**> element and assign a contrasting text color to the <**h2**> tag inside it. We'll also align the text centrally inside the header section. I've used the following values for the header section:  
->
-> - padding: 60px;
-> - background-color: #1abc9c;
-> - color: #fff;  
-> 
-> b. Now we'll first align the anchor tags next to each other using `display: flex` property. Since the default value of **flex-direction** property for our flex-items (<**a**> tags) is **row**, the anchor tags are automatically aligned next to each other. Apply a definitive padding and text-color to the anchor tags to add a pop effect to the tags.  
-> 
-> c. Finally add a hover effect to the anchor tags using `::hover` pseudo-class.   
+> a. Let's start off by referencing the header section using it's assigned classname inside our CSS source file. We'll add a definitive padding and background color to the header section and assign contrasting text colors to the subheading and paragraph inside it. We'll also align the text centrally inside the header section.
 
-***Refer to `Activity-3` under `REFERENCES` section near the bottom for relevant code.***
+<details>
+<summary> Need a hint? Expand to know more</summary>  
+  
+```
+padding: 60px;  
+background-color: #1abc9c;  
+color: #fff;  
+```  
+
+> b. Now we'll first align the anchor tags next to each other using CSS flexbox. Could you do it? Now apply a definitive padding and text-color to the anchor tags to add a pop effect to the tags.  
+> 
+> c. Finally add a hover effect to the anchor tags using pre-defined CSS pseudo-classes.   
+
+
+***Refer to `Activity-3` under `REFERENCES` section near the bottom for relevant code.***  
 
 ### Micro-References
 1. [CSS Flex Property](https://www.w3schools.com/css/css3_flexbox.asp)  
