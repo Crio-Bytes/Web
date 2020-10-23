@@ -21,15 +21,15 @@ All of these editors have user-friendly interfaces that enable you to manually e
 ### Activity 1: Use Images in Webpage
 
 For include Images in webpage we have to use <img> tag. This is an empty element meaning that it has no closing tag. It requires a minimum of one attribute "src" to be useful.
- <img src="images location" alt="Alternative text">
+ ```<img src="images location" alt="Alternative text">```
  
-![](images/img tag.jpg)
+![](https://github.com/piyush-gupta092/Web/blob/main/HTML_Images/images/img%20tag.JPG)
 
 
 Try Out Yourself:-
 
 We can use CSS to style the images in webpages. In this module we use inline CSS.
-<img src="images location" alt="Alternative text" Style=" CSS Attribute">
+```<img src="images location" alt="Alternative text" Style=" CSS Attribute">```
 Some CSS Attribute:-
 1. width: To set the width of image.
 2. height:To set the height of the image.
@@ -39,20 +39,20 @@ Some CSS Attribute:-
 ### Activity 2: Use Image in Webpage As a link
 
 For using images as the link we use <img> tag inside the <a> tag.
-  <a href="">
+ ```<a href="address">
         <img src="images location" alt="Alternative text" Style=" height:"500px;">
     </a>
-
-![](images/img tag link.jpg)
+```
+![](https://github.com/piyush-gupta092/Web/blob/main/HTML_Images/images/img%20tag%20link.JPG)
 
 
 ### Activity 3: Use Image As Background
 
 For using image as background we have to use CSS property "background-image". background-image property specifies an image to use as the background of an element.
 
-<body style="background-image:url("image address");">
+```<body style="background-image:url("image address");">```
   
-  ![](images/bg_img.jpg)
+  ![](https://github.com/piyush-gupta092/Web/blob/main/HTML_Images/images/bg_img.JPG)
 
 Try Out Yourself:-
 There is some CSS properties we can use with background-image.
