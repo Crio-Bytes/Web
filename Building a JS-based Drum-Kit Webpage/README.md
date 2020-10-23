@@ -40,7 +40,7 @@ I'll be using Sublime Text3 for this module. Now go ahead and make three seperat
 
 ### Activity 1: Start typing in the HTML code inside the code editor
 
-Tasks
+**Tasks**
 
 > Start your workflow by typing in the basic template used for HTML code. Make sure to link our external CSS filename as well as our external JavaScript source code inside the HTML file.
 
