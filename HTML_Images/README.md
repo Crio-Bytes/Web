@@ -39,7 +39,9 @@ Some CSS Attribute:-
 ### Activity 2: Use Image in Webpage As a link
 
 For using images as the link we use <img> tag inside the <a> tag.
- ```<a href="address">
+
+```
+    <a href="address">
         <img src="images location" alt="Alternative text" Style=" height:"500px;">
     </a>
 ```
