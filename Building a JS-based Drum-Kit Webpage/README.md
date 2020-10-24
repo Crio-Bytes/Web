@@ -38,22 +38,19 @@ Along with this, we will be using Nodejs for deploying our website to production
 I'll be using Sublime Text3 for this module. Now go ahead and make three seperate files with **.html**, **.css** and **.js** extensions.  
 
 
-### Activity 1: Start typing in the HTML code inside the code editor
+### Activity 1: Start typing in the HTML code inside the code editor  
 
-**Tasks**
 
-> Start your workflow by typing in the basic template used for HTML code. Make sure to link our external CSS filename as well as our external JavaScript source code inside the HTML file.
-
-<details>
-<summary>Don't know where to begin? Expand below to know more</summary>  
+a. Start your workflow by typing in the basic template used for HTML code. Make sure to link our external CSS filename as well as our external JavaScript source code inside the HTML file.
   
-> Refer to `src/Activity-1/code1a.html` for relevant html source code
+> Don't know where to start? Refer to `src/Activity-1/code1a.html` inside this folder  
 
-</details>  
+### Micro-References
+1. [HTML tutorial](https://www.w3schools.com/html/)  
 
-- **References** - [HTML tutorial](https://www.w3schools.com/html/)
 
-### Activity 2: Adding relevant HTML code to build the basic foundation of our website
+### Activity 2: Implementing the front-end for our webpage  
+
 
 Our website will prinmarily compose of three sections: 
 
@@ -61,146 +58,137 @@ Our website will prinmarily compose of three sections:
 - **Body section**
 - **Footer section**
 
-### Tasks    
+a. We'll start by importing `Google Fonts` inside our HTML document. The choice of font-style is solely based on your imagination. Use HTML to build a `header` section with your own experimental classname and add relevant title heading inside it.  
 
-> a. Let's start by adding a **header** section using HTML markup and assigning an experimental classname to it. Add a ***title heading*** and a ***small paragraph*** in it as well to emphasize on content.
->
-> b. Now create a ***horizontal navigation bar***. Done?..... So now go ahead and insert ***three to four anchor tags*** inside it and assign names to them as per your choice.  
->
-> c. Let's start working with the actual body content of our website.  
->
-> We'll create our first body sectional content using any block element of your choice and assign it an experimental classname (here, I've used classname as **left**). We'll also add a ***subheading*** and an ***image representation*** with necessary ***paragraph-based description*** below it. 
->
-> d. Next we'll create our second sectional content (try thinking along the lines of block elements) and assign it a random classname to it (here, I've used classname as **right**). Now we'll assign the exact same contents to this body section as well. Finally, go ahead and enclose both the sectional contents (from subtasks ***c*** and ***d***) within a common HTML element and assign it a non-ambiguous classname as well (here, I've used **parent** as the classname).
-> 
-> e. Finally, let's build a **footer** section. So, what will you use for this? (P.S.- Think how you built the **header** section). Assign it an identifiable classname (here, I've used **footer** as classname) and add a small description inside the footer section.  
+> Facing issues? Refer to `src/Activity-2/code2a.html` in this folder  
 
+b. Write a HTML code that uses `buttons` to represent our various drum-kit accessories, namely tom (x4), snare (x1), kick-bass (x1) and crash (x1). Make sure to group our ***drum-elements*** under a common HTML element for easy manipulation using CSS.  
 
-**Refer to `Activity-2` under `REFERENCES` section near the bottom for relevant code.**
+> Facing issues? Refer to `src/Activity-2/code2b.html` and `src/Activity-2/code2b.html` in this folder  
+
+c. Finally, use HTML to add a `footer` section and assign it your own classname (Hint: Remember how you built the `header` section?.....exactly) . Use the footer to acknowledge yourself inside the webpage.😉  
+
+> Facing issues? Refer to `src/Activity-2/code2b.html` and `src/Activity-2/code2d.html` in this folder  
+
+At the end of this activity, you'll have built the foundational blocks of our webpage solely using HTML.  
 
 ### Micro-References
 1. [HTML Block Elements](https://www.w3schools.com/html/html_blocks.asp)
 2. [CSS Pseudo Classes](https://www.w3schools.com/css/css_pseudo_elements.asp)  
 
 
-### Activity 3: Adding CSS styling to the header section and navbar
-
-We'll add CSS now to add a stylised appeal to our website.  
-
-### Tasks    
-
-> a. Let's start off by referencing the header section using it's assigned classname inside our CSS source file. We'll add a definitive ***padding*** and ***background color*** to the header section and assign contrasting ***text colors*** to the subheading and paragraph inside it. We'll also ***align the text*** centrally inside the header section.
-
-<details>
-<summary> Need a hint? Expand to know more</summary>  
-  
-```
-padding: 60px;  
-background-color: #1abc9c;  
-color: #fff;  
-text-align: center;
-```  
-</details>
-
-> b. Now we'll first align the anchor tags next to each other using CSS flexbox. Could you do it? Now apply a definitive padding and text-color to the anchor tags to add a pop effect to the tags.  
-> 
-> c. Finally add a hover effect to the anchor tags using pre-defined CSS **pseudo-classes**.   
+### Activity 3: Adding CSS styling to our HTML document  
 
 
-**Refer to `Activity-3` under `REFERENCES` section near the bottom for relevant code.**  
+In order for our website to be appealing, we havhe to add relevant CSS styling to our HTML source code. Let's go ahead and do that.
+
+a. Add CSS code to reference the title heading inside our `header` section. Use your imagination to add contrasting `text` and `background color` to it keeping a consistent color palette in mind. We'll be using the same color palette throughout our webpage.  
+
+> Need a hint? Navigate to `src/Activity-3/style3a.css` to find out  
+
+b. Next step is to add relevant background images to our `drum buttons`. Use appropriate CSS property to do that.  
+
+> Need a hint? Navigate to `src/Activity-3/style3b.css` to find out  
+
+c. Use CSS to add proper styling to our `footer` section. Remember to apply the same color scheme as used in the first task of this activity.  
+
+> Need a hint? Navigate to `src/Activity-3/style3c.css` to find out  
+
+d. Finally, we'll first align our `drum-buttons` centrally inside our webpage. Once you're done with that, we'll increase the `dimensions` of our drum-kit buttons using CSS referencing. Then go ahead and beautify our drum-kit elements to the best of your ability. Let your imagination run wild.
+
+> Curious what I did? Navigate to `src/Activity-3/style3d.css` to find out  
+
 
 ### Micro-References
-1. [CSS Flex Property](https://www.w3schools.com/css/css3_flexbox.asp)  
+1. [CSS Display Property](https://www.w3schools.com/cssref/pr_class_display.asp)  
+2. [HTML Color Picker](https://www.w3schools.com/colors/colors_picker.asp)  
+
+At the end of this activity, we'll have built a beautiful frontend UI for our drum-kit webpage.  
 
 
-### Activity 4: Adding CSS styling to the body section  
+### Activity 4: Integrating audio functionality using JavaScript  
 
-### Tasks    
 
-> a. Now we'll ***align*** the two block sections enclosed inside the common block section (from Activity-2) adjacent to each other. You'll need a basic CSS property to do so.
-> 
-> b. Now we'll assign different ***widths*** to the children block tags (preferably 3:7 width ratio) respectively. Once you're done with that, we'll assign different ***background colours*** to both the elements and add consistent ***padding*** to them.  
-> 
-> c. At this stage, we need to assign a definitive ***padding*** to our images (represented using block tags as well) plus add consistent ***background-color*** to it. So go ahead and add some padding and background-color to the **images** based on your imagination.  
->  
+We'll use JavaScript to detect mouseclick or keyboard press to trigger our drum-kit elements. 
 
-**Facing issues? Refer to `Activity-4` under `REFERENCES` section near the bottom for relevant code.**
+a. Add JavaScript `event listeners` to our drum-kit buttons which triggers two seperate functions, one for `mouseclick` event and the other for `keyboard press` event respectively. You'll have to inbuilt JavaScript methods to `locate` our drum-kit elements and figure out a way to add event listener property to all the seven drum elements. 
+
+> Need a hint? Head over to `src/Activity-4/jsscript4a.js` for relevant details  
+
+b. We'll now define the first function which will be invoked on detecting a `mouseclick event`. Use `console.log()` to verify whether your webpage detects mouseclick events or not.  
+
+Inside this function, we'll add `two function call statements`.
+
+- First function call statement **invokes** a common function which integrates relevant audio to the drum-kit elements.  
+
+- Second function call statement **invokes** a common function which adds button animation to our drum-kit elements when either event is triggered.
+
+> Need a hint? Head over to `src/Activity-4/jsscript4b.js` for relevant details  
+
+c. Go ahead and define the second function which will be invoked on detecting a `keypress event`. Use `console.log()` to verify whether your webpage detects keypress events or not.  
+
+Inside this function, we'll add `two function call statements`.
+
+- First function call statement **invokes** a common function which integrates relevant audio to the drum-kit elements.  
+
+- Second function call statement **invokes** a common function which adds button animation to our drum-kit elements when either event is triggered.  
+
+> Need a hint? Head over to `src/Activity-4/jsscript4c.js` for relevant details  
+
+d. Go ahead and define the contents of the first common function which will integrate audio to our drum-kit button elements. Figure out a way to add audio to the buttons after an event is triggered.  
+
+> Need a hint? Navigate to `src/Activity-4/jsscript4d.js` for relevant details  
+
+e. Finally, we'll define the contents of our second common function which adds button click animation when invoked. Define a seperate CSS classname inside your CSS file and add appropriate styling to it because we'll add it to our drum-kit buttons on trigger using JavaScript.  
+
+> Need a hint? Head over to `src/Activity-3/style3c.css` for relevant details  
+
+f. Once you're done, figure out a way to add and remove a CSS class to HTML elements solely using JavaScript. Make sure to add a time delay for our animation to be visible. 
+
+> Need a hint? Head over to `src/Activity-4/jsscript4e.css` for relevant details  
 
 ### Micro-References
-1. [CSS Display Property](https://www.w3schools.com/css/css_display_visibility.asp)
-2. [CSS Padding](https://www.w3schools.com/css/css_padding.asp)  
+1. [JS DOM EventListeners](https://www.w3schools.com/js/js_htmldom_eventlistener.asp)
+2. [JS Methods](https://www.w3schools.com/js/js_object_methods.asp)  
+3. [JavaScript DOM Document](https://www.w3schools.com/js/js_htmldom_document.asp)  
 
 
-### Activity 5: Adding CSS styling to the footer section and using media query to create responsive design  
+### Activity 5: Deploying our webpage to production  
 
-We've almost reached the end of this Crio-byte. That's no small feat!!!
 
-### Tasks  
+Congratulations on reaching this far. That's no small feat!!  In our final activity, we'll be deploying our webpage live using **Firebase**. 
 
-> a. So now we'll add ***padding*** to the footer section as well as a ***consistent background-color*** to it. I leave it entirely upto your imagination. If you're unable to add styling or facing some other issues, just look below: 
-> 
-> - Finally we'll add a ***media query*** to aid in responsive design on a smaller viewport. Don't know what a media query is? No worries. We've attached a link in the `References` section explaining all about it.  
-> 
-> So now we have create a media query that triggers on all devices below 768 pixels.  
+Before you can set up Firebase Hosting, you need to create a [Firebase project](https://firebase.google.com/docs/web/setup).
 
-<details>
-  <summary>Need a hint? Expand to know more </summary>
-  
-  ```
-  @media all and (max-width: 768px){  
-  
-  }
-  ```  
-  
-</details>
+a. Move to your existing projects folder. Now create a new folder named "public" and move all your existing source files including the relevant images and audio tracks inside this folder.
 
-> b. We want our flex-items to align ***vertically*** on a smaller viewport for enhanced readability. So go ahead and apply the necessary styling to the navbar and parent block tag. 
+> Refer to `img/Activity-5/preview_a.PNG` inside the folder  
 
-<details>
-  <summary>Need a hint? Expand to know more </summary>
-  
-  ```
-  @media all and (max-width: 768px){  
-    .parent, .navbar{  
-      flex-direction: column;  
-    }  
-  }  
-  ```  
-  
-</details>
+b. Move to your existing root directory of your project through the terminal and install `Firebase CLI` using `npm install -g firebase-tools` command. Sign in to firebase from the terminal by using `firebase login` followed by your email and password if prompted.  
 
-**Your final result should look something like this:**  
+> Refer to `img/Activity-5/preview_b.PNG` inside the folder  
 
-<p align="center"><img src="images/Activity-5/Preview.gif"/></p>
+c. Initialize your existing folder by typing in `firebase init` followed by choosing recommended commands which are capitalised. Make sure to choose the existing project which was set up beforehand.  
 
-> You can also refer to `images/Activity-5/output/PNG` as well to view your final responsive web design.  
+> Refer to `img/Activity-5/preview_c.gif` inside the folder  
+
+d. We'll finally deploy out website live using `firebase deploy`. It should automatically generate the live website URL for you once it's done. And there you go. Done and dusted!!!
+
+At the end of this activity, you have deployed your very own static drum-kit webpage using Firebase. 
+
+### Micro-Challenge
+
+> Complete the MicroByte, deploy your live website and add a link to your firebase site in `src/Activity-5/SHOWCASE.md` in the specified format.
+
 
 ## CONCLUSION  
 
-Congratulations on reaching this stage. I'm sure you've learnt a lot from this microbyte. You should now have understood the basics of CSS flexbox and how handy it is when it comes to aligning items inside a webpage and making responsive webpage designs. Go ahead, flaunt your design, or even better, build a working website out of it.🎉🎉
+You just built your very own static drum-kit webpage from scratch and deployed it live through Firebase. Amazing how it works right? You can now go ahead, do further research and find better ways to trigger our drum-kit. 
 
-## REFERENCES  
+Kudos to you on completing this MicroByte! I know it might have taken longer than usual, but we believe you learnt a lot by doing! Don't forget to add your creation to the showcase.
 
-1. **Activity-2 tasks**:  
-> a. Refer to `src/Activity-2/activity2a.html` for relevant code.  
-> b. Refer to `src/Activity-2/activity2b.html` for relevant code.  
-> c. Refer to `src/Activity-2/activity2c1.html` for relevant code.  
-> d. Refer to `src/Activity-2/activity2c2.html` for relevant code.  
-> e. Refer to `src/Activity-2/activity2d.html` for relevant code.  
+## REFERENCES   
 
-2. **Activity-3 tasks**:  
-> a. Refer to `src/Activity-3/style3a.css` for code reference.  
-> b. Refer to `src/Activity-3/style3b.css` for code reference.  
-> c. Refer to `src/Activity-3/style3c.css` for code reference.  
-
-3. **Activity-4 tasks**:  
-> a. Refer to `src/Activity-4/style4a.css` for relevant details.
-> b. Refer to `src/Activity-4/style4b.css` for relevant details.
-> c. Refer to `src/Activity-4/style4c.css` for relevant details.
-
-4. **Activity-5 tasks**:  
-> a. Refer to `src/Activity-5/style5a.css` for details.  
-
-5. [W3Schools](https://www.w3schools.com/css/)
-6. [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/CSS)
-7. [Tutorials Point](https://www.tutorialspoint.com/index.htm)
+1. [W3Schools](https://www.w3schools.com/css/)
+2. [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/CSS)
+3. [Tutorials Point](https://www.tutorialspoint.com/index.htm)
