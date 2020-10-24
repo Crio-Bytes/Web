@@ -40,18 +40,13 @@ I'll be using Sublime Text3 for this module. Now go ahead and make three seperat
 
 ### Activity 1: Start typing in the HTML code inside the code editor
 
-**Tasks**
-
-> Start your workflow by typing in the basic template used for HTML code. Make sure to link our external CSS filename as well as our external JavaScript source code inside the HTML file.
-
-<details>
-<summary>Don't know where to begin? Expand below to know more</summary>  
+a. Start your workflow by typing in the basic template used for HTML code. Make sure to link our external CSS filename as well as our external JavaScript source code inside the HTML file.
   
-> Refer to `src/Activity-1/code1a.html` for relevant html source code
+> Don't know where to start? Refer to `src/Activity-1/code1a.html` inside this folder  
 
-</details>  
+### Micro-References
+1. [HTML tutorial](https://www.w3schools.com/html/)  
 
-- **References** - [HTML tutorial](https://www.w3schools.com/html/)
 
 ### Activity 2: Adding relevant HTML code to build the basic foundation of our website
 
@@ -61,22 +56,19 @@ Our website will prinmarily compose of three sections:
 - **Body section**
 - **Footer section**
 
-### Tasks    
+a. We'll start by importing `Google Fonts` inside our HTML document. The choice of font-style is solely based on your imagination. Use HTML to build a `header` section with your own experimental classname and add relevant title heading inside it.  
 
-> a. Let's start by adding a **header** section using HTML markup and assigning an experimental classname to it. Add a ***title heading*** and a ***small paragraph*** in it as well to emphasize on content.
->
-> b. Now create a ***horizontal navigation bar***. Done?..... So now go ahead and insert ***three to four anchor tags*** inside it and assign names to them as per your choice.  
->
-> c. Let's start working with the actual body content of our website.  
->
-> We'll create our first body sectional content using any block element of your choice and assign it an experimental classname (here, I've used classname as **left**). We'll also add a ***subheading*** and an ***image representation*** with necessary ***paragraph-based description*** below it. 
->
-> d. Next we'll create our second sectional content (try thinking along the lines of block elements) and assign it a random classname to it (here, I've used classname as **right**). Now we'll assign the exact same contents to this body section as well. Finally, go ahead and enclose both the sectional contents (from subtasks ***c*** and ***d***) within a common HTML element and assign it a non-ambiguous classname as well (here, I've used **parent** as the classname).
-> 
-> e. Finally, let's build a **footer** section. So, what will you use for this? (P.S.- Think how you built the **header** section). Assign it an identifiable classname (here, I've used **footer** as classname) and add a small description inside the footer section.  
+> Facing issues? Refer to `src/Activity-2/code2a.html` in this folder  
 
+b. Write a HTML code that uses `buttons` to represent our various drum-kit accessories, namely tom (x4), snare (x1), kick-bass (x1) and crash (x1). Make sure to group our ***drum-elements*** under a common HTML element for easy manipulation using CSS.  
 
-**Refer to `Activity-2` under `REFERENCES` section near the bottom for relevant code.**
+> Facing issues? Refer to `src/Activity-2/code2b.html` and `src/Activity-2/code2b.html` in this folder  
+
+c. Finally, use HTML to add a `footer` section and assign it your own classname (Hint: Remember how you built the `header` section?.....exactly) . Use the footer to acknowledge yourself inside the webpage.😉  
+
+> Facing issues? Refer to `src/Activity-2/code2b.html` and `src/Activity-2/code2d.html` in this folder  
+
+At the end of this activity, you'll have built the foundational blocks of our webpage solely using HTML.  
 
 ### Micro-References
 1. [HTML Block Elements](https://www.w3schools.com/html/html_blocks.asp)
