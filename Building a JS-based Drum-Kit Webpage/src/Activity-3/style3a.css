@@ -1,0 +1,12 @@
+body {
+  text-align: center;
+  background-image: linear-gradient(to bottom right,  #333333, #000000,  #333333);
+}
+
+h1 {
+  font-size: 5rem;
+  color: #DBEDF3;
+  font-family: "Arvo", cursive;
+  text-shadow: 3px 3px #DA0463;
+}
+
