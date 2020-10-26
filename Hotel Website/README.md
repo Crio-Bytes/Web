@@ -38,7 +38,7 @@ Here is the [link](https://www.youtube.com/watch?v=TeZdo8mx0gc) for installing t
 
 ## You need to write your own code in the place of TODO comments.
 
-1. Add icons from [Fontawesome.com](https://fontawesome.com/icons?d=gallery) and search for each icon like dumbell, home, meals etc. If you don't know how to use the
+1. In "index.html" file, add icons from [Fontawesome.com](https://fontawesome.com/icons?d=gallery) and search for each icon like dumbell, home, meals etc. If you don't know how to use the
 fontawesome icons, again no need to worry about that, you can simply go through the reference link provided below:
 https://www.youtube.com/watch?v=adSoD74EqIQ
 
@@ -62,19 +62,20 @@ https://www.youtube.com/watch?v=adSoD74EqIQ
   </section> 
 ```
 
-2. Write your own code for creating a footer in all given html files and your footer looks like the given screenshot below.
+2. Write your own code for creating a footer in all given html files i.e, "index.html", "about.html", "contact.html" and your footer looks like the given screenshot below.
 
 ```   
 <footer id="main-footer">
     <!-- Write your code here -->
   </footer>  
 ```
+   Reference: https://www.w3schools.com/tags/tag_footer.asp
   
  Screenshot:
   
 ![footer](https://user-images.githubusercontent.com/65127291/97091116-fc404100-1656-11eb-91a5-46e637589fe7.PNG)
 
-3. Style the section tag which has id features, footer, set the font family, line height of html, body of index.hmtl in style.css.
+3. Set the default styling of html, body of all html files given in src folder. Then you will need to style the various elements of "index.html". 
 
 ``` 
 html,body {
@@ -98,6 +99,7 @@ html,body {
 }
 
 ```
+   Reference: https://www.w3schools.com/html/html_css.asp
 
 4. Add placeholders for name, email and message in contact.html. If you don't know what placholder is, please go through [this](https://www.w3schools.com/tags/att_placeholder.asp) link.
 
