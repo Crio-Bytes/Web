@@ -65,14 +65,11 @@ p {
 }
 
 .bg-light {
-  background: #f4f4f4;
-  color: #333;
+/* write your code here */
 }
 
 .bg-primary {
-  background: #f7c08a;
-  color: #333;
-}
+ /* write your code here */
 
 .clr {
   clear: both;
@@ -173,10 +170,7 @@ p {
 
 /* Features */
 .box {
-  float: left;
-  width: 33.3%;
-  padding: 50px;
-  text-align:center;
+/* write your code here */
 }
 
 .box i {
