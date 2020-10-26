@@ -13,23 +13,11 @@ One of the screenshots is given below:
 
 # Prerequisites
 
-For creating the static website, you must have familiar with HTML and some CSS.
-If you don't know so much about that then don't worry, we will provided you all the materials so at the result you can easily create the static site. We will discuss about 
-that one by one. First we discuss about HTML.
+For creating the static website, you must have familiar with HTML, CSS and some knowledge of IDE's. 
+If you don't know so much about that then don't worry, we will provided you all the materials so at the result you can easily create the static site. 
 
-HTML(Hypertext Markup Language) is the standard markup language for documents designed to be displayed in a web browser. It can be assisted by technologies such as Cascading 
-Style Sheets and scripting languages such as JavaScript.
-
-Example:        
-![Capture](https://user-images.githubusercontent.com/65127291/97088939-d7959a80-1651-11eb-8c0f-be7affdeed1b.PNG)
-
-
-CSS(Cascading Style Sheets) is a style sheet language used for describing the presentation of a document written in a markup language such as HTML. CSS is a cornerstone 
-technology of the World Wide Web, alongside HTML and JavaScript.
-
-Example:
-
-![css](https://user-images.githubusercontent.com/65127291/97088981-2e9b6f80-1652-11eb-84c0-eb8f60ee3a99.PNG)
+Reference Material for HTML: https://www.w3schools.com/html/
+Reference Material for CSS: https://www.w3schools.com/css/default.asp
 
 
 # IDE's(integrated development environment)
@@ -86,21 +74,32 @@ https://www.youtube.com/watch?v=adSoD74EqIQ
   
 ![footer](https://user-images.githubusercontent.com/65127291/97091116-fc404100-1656-11eb-91a5-46e637589fe7.PNG)
 
-3. Style the footer, font family , line height and many more in the css file and link this css file properly in all html files.
+3. Style the section tag which has id features, footer, set the font family, line height of html, body of index.hmtl in style.css.
 
 ``` 
 html,body {
  /* Set the font family and line height  */
 }
-```
 
-```  
+.box {
+/* write your code here */
+}
+
 #main-footer{
     /* write your code here to design the footer */
 } 
+
+.bg-light {
+/* write your code here */
+}
+
+.bg-primary {
+ /* write your code here */
+}
+
 ```
 
-4. Add placeholders for name, email and message in contact.html.
+4. Add placeholders for name, email and message in contact.html. If you don't know what placholder is, please go through [this](https://www.w3schools.com/tags/att_placeholder.asp) link.
 
 ``` 
 <div class="form-group">
@@ -109,10 +108,6 @@ html,body {
         </div>  
 ```
 
-
-Screenshot:
-
-<img src="./images/screenshot/screenshot_3.png" alt="screenshot" width="900"/>
 
 
 # Reference
