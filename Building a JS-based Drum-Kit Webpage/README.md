@@ -23,7 +23,7 @@ Along with this, we will be using Nodejs for deploying our website to production
 ```  
 ## Preview
 
-Here's the live website preview of what we'll be building in this microbyte: [LINK](https://my-drum-kit.web.app/)
+Here's the live preview of what we'll be building in this microbyte: [Click Here](https://my-drum-kit.web.app/)
 
 ## Activities  
 
