@@ -21,6 +21,9 @@ Along with this, we will be using Nodejs for deploying our website to production
 > node -v  // It should display the current version of node installed
 > npm -v  // It should display the current version of npm installed
 ```  
+## Preview
+
+Here's the live website preview of what we'll be building in this microbyte: [LINK](https://my-drum-kit.web.app/)
 
 ## Activities  
 
