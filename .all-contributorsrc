@@ -93,6 +93,27 @@
         "review",
         "eventOrganizing"
       ]
+    },
+    {
+      "login": "sg23600",
+      "name": "Sujay Goswami",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/53886504?v=4",
+      "profile": "https://github.com/sg23600",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "deepak-prajapatii",
+      "name": "Deepak Kumar",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/65127291?v=4",
+      "profile": "https://github.com/deepak-prajapatii",
+      "contributions": [
+        "code",
+        "content",
+        "ideas",
+        "doc"
+      ]
     }
   ],
   "contributorsPerLine": 7,
