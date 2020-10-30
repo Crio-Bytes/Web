@@ -55,7 +55,7 @@ Now to launch an Instance, we require:
 
 Try to find out the elements require to launch the instance using `aws ec2 describe `command in your cmd.
 
-![](Images/Activity 1/Task_help.png)
+![](Images/Taskhelp.png)
 
 
 If you see the Following output 👇 that means instance is launched successfully:
