@@ -1,6 +1,6 @@
 # Introduction
 
-![AWS] (https://i.gifer.com/Uk9j.gif)
+![AWS](https://i.gifer.com/Uk9j.gif)
 
 In this Microbyte we will create `High Availability Architecture` with AWS CLI. First let's understand `what is High Avialability?`
 
