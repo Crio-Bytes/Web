@@ -1,6 +1,6 @@
-#Introduction
+# Introduction
 
-![AWS](https://i.gifer.com/Uk9j.gif)
+![AWS] (https://i.gifer.com/Uk9j.gif)
 
 In this Microbyte we will create `High Availability Architecture` with AWS CLI. First let's understand `what is High Avialability?`
 
@@ -26,7 +26,7 @@ In this MicroByte we will perform following activities:
 
 I hope you will learn by doing the Activities and will perform Task given in the Activities #LearnByDoing
 
-#Prerequisites
+# Prerequisites
 
 - You should have AWS account.
 - Install [AWS CLI](https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2-windows.html) in Windows.
@@ -55,7 +55,7 @@ Now to launch an Instance, we require:
 
 Try to find out the elements require to launch the instance using `aws ec2 describe `command in your cmd.
 
-![](Images/Activity 1/task_help.png)
+![](Images/Activity 1/Task_help.png)
 
 
 If you see the Following output 👇 that means instance is launched successfully:
