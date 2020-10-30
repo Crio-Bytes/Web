@@ -201,7 +201,7 @@ Find S3 Bucket domain using AWS CLI or WebUi.
 
 Now open the webpage using the Ip address of instance and file name in your browser .
 
-![](Images/Activity 11/Webpage.png)
+![](Images/Webpage.png)
 
 
 By performig all Activities you can deploy your website with `High availability`,`secure` your website and make your website `manageable`.
