@@ -28,7 +28,7 @@ I hope you will learn by doing the Activities and will perform Task given in the
 
 # Prerequisites
 
-- You should have AWS account.
+- You should have AWS account, you can create AWS free tier account.
 - Install [AWS CLI](https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2-windows.html) in Windows.
 - Configure [AWS CLI with IAM user](https://bauddhik-geek.blogspot.com/2020/10/working-in-aws-using-aws-cli-with-help.html).
 - It is preferred that you are aware [HTML basics](https://learn.crio.do/home/me/ME_HTML_CSS) and [Linux](https://learn.crio.do/home/me/ME_LINUX1)
