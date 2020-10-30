@@ -10,9 +10,9 @@ Implementing a cloud computing architecture that enables this is key to ensuring
 
 Highly available systems include the capability to recover from unexpected events in the shortest time possible. By moving the processes to backup components, these systems minimize downtime or eliminate it. This usually requires constant maintenance, monitoring, and initial in-depth tests to confirm that there are no weak points.
 
-**Application:**If you want to deploy a website and want's your website to be fast, secure and you want your website to be available all the time even in the time of some failure in the network then`High Availabilty Architecture`comes in play.
+**Application:** If you want to deploy a website and want's your website to be fast, secure and you want your website to be available all the time even in the time of some failure in the network then`High Availabilty Architecture`comes in play.
 
-It is important to create `High Avialability Architecture`to work efficiently without any delay due to failure.
+It is important to create `High Availability Architecture`to work efficiently without any delay due to failure.
 
 In this MicroByte we will perform following activities:
 
@@ -28,13 +28,13 @@ I hope you will learn by doing the Activities and will perform Task given in the
 
 # Prerequisites
 
-- You should have AWS account, you can create AWS free tier account.
+- You should have AWS account, you can create [AWS free tier account](https://aws.amazon.com/free/?all-free-tier.sort-by=item.additionalFields.SortRank&all-free-tier.sort-order=asc).
 - Install [AWS CLI](https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2-windows.html) in Windows.
 - Configure [AWS CLI with IAM user](https://bauddhik-geek.blogspot.com/2020/10/working-in-aws-using-aws-cli-with-help.html).
 - It is preferred that you are aware [HTML basics](https://learn.crio.do/home/me/ME_HTML_CSS) and [Linux](https://learn.crio.do/home/me/ME_LINUX1)
 
 ### Activity 1: Launch an Instance using AWS CLI
-First configure the AWS CLI in your window cmd by providing Access Key, Secret Key and region name.
+First configure the AWS CLI in your [window cmd](https://www.online-tech-tips.com/computer-tips/how-to-use-dos-command-prompt/) by providing Access Key, Secret Key and region name.
 
 If you are facing problem in configuring the AWS CLI then refer to the link provided in the `Prerequisites`
 
@@ -42,7 +42,7 @@ Now to launch an Instance, we require:
 
 - Image-id
 - Instance-type
-- Count i.e how many instace we want to launch
+- Count i.e how many instance we want to launch
 - subnet-id
 - Security-Group-id
 - Key-name
@@ -55,12 +55,12 @@ Now to launch an Instance, we require:
 
 Try to find out the elements require to launch the instance using `aws ec2 describe `command in your cmd.
 
-![](Images/Taskhelp.png)
+> Refer to `Images/Activity 1/Task_help.png`
 
 
 If you see the Following output 👇 that means instance is launched successfully:
 
-> Refer to `Images/Activity1/Activity1b.png` 
+> Refer to `Images/Activity 1/Activity1b.png` 
 
 
 ### Activity 2: Configure Webserver
@@ -73,11 +73,11 @@ After httpd installation, we need to check whether service is started or not.
 
 To check the httpd service use command:`systemctl status httpd`
 
-> Refer to `Images/Activity2/Activity2a.png`
+> Refer to `Images/Activity 2/Activity2a.png`
 
 And to start the service use the command `systemctl start httpd`
 
-> Refer to `Images/Activity2/Activity2b.png`
+> Refer to `Images/Activity 2/Activity2b.png`
 
 **Activity 2 Task:**
 
@@ -94,7 +94,7 @@ To Create an EBS Volume we require:
 
 Here `ap-south-1a` is availability zone, you have to give availability zone name where you have launched instance and `1` is the size of volume i.e 1Gb, you can give desired size to your volume.
 
-> Refer to `Images/Activity3/Activity3a.png` 
+> Refer to `Images/Activity 3/Activity3a.png` 
 
 ### Activity 4: Attach EBS Volume to Instance
 
@@ -106,7 +106,7 @@ To attach the EBS Volume to an Instance we require:
 
 > Syntax: aws ec2 attach-volume --volume-id (volume_id) --instance-id (instance_id) --device(ex: /dev/sdf)
 
-> Refer to `Images/Activity4/Activity4a.png` 
+> Refer to `Images/Activity 4/Activity4a.png` 
 
 **Activity 4 Task:**
 
@@ -124,13 +124,13 @@ After running this commmand press `n` to create new partition and then press `p`
 
 To save the partition press `w`.
 
-> Refer to `Images/Activity5/Activity5a.png` 
+> Refer to `Images/Activity 5/Activity5a.png` 
 
 Now we need to format the partion.
 
 To format the partition use the command `mkfs.ext4 device_name`
 
-> Refer to `Images/Activity5/Activity5b.png` 
+> Refer to `Images/Activity 5/Activity5b.png` 
 
 ### Activity 6: Mount /var/www/html directory to partition
 
@@ -140,7 +140,7 @@ To mount the directory use the command `mount /dev/xvdf  /var/www/html`
 
 And to check it is mounted or not use command `df -h`
 
-> Refer to `Images/Activity6/Activity6a.png`  
+> Refer to `Images/Activity 6/Activity6a.png`  
 
 ### Activity 7: Create a HTML Page
 
@@ -161,7 +161,7 @@ To create S3 Bucket we require:
 
 > Syntax:  aws s3api create-bucket --bucket <bucket name > --region <region name > --create-bucket-configuration LocationConstraint=<region name>
 
-> Refer to `Images/Activity8/Activity8a.png` 
+> Refer to `Images/Activity 8/Activity8a.png` 
 
 ### Activity 9: Upload images in S3 Bucket
 
@@ -173,11 +173,11 @@ The images that you will use while creating website or webpage, store that image
 - upload images
 - Make the images that are uploaded public so that all can see your images.
 
-> Refer to `Images/Activity9/Activity9a.png` 
+> Refer to `Images/Activity 9/Activity9a.png` 
 
 Now copy the link of the images in the S3 Bucket and paste that link in your webpage.
 
-> Refer to `Images/Activity9/Activity9b.png`
+> Refer to `Images/Activity 9/Activity9b.png`
  
 ### Activity 10: Create Cloudfront Distribution
  
@@ -191,17 +191,15 @@ To create Cloudfront Distribution we require:
 
 > Syntax: aws cloudfront create-distribution — origin-domain-name <bucket domain>
 
-> Refer to `Images/Activity10/Activity10a.png` & `Images/Activity10/Activity10b.png`
+> Refer to `Images/Activity 10/Activity10a.png` & `Images/Activity10/Activity10b.png`
 
 **Activity 10 Task:**
 
 Find S3 Bucket domain using AWS CLI or WebUi.
 
-### Activity 11: Open your webpage or website
-
 Now open the webpage using the Ip address of instance and file name in your browser .
 
-![](Images/Webpage.png)
+> Refer to `Images/Activity 10/Webpage.png`
 
 
 By performig all Activities you can deploy your website with `High availability`,`secure` your website and make your website `manageable`.
