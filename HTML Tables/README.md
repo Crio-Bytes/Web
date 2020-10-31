@@ -57,7 +57,9 @@ Our aim here is to create a full-fledged HTML table.
 
 <details>
 <summary>At the end of this activity, our table should look something like this </summary>
+  
 ![Table Picture](images/Activity-2/table.PNG)	
+
 </details>
 
 ### Micro-References  
@@ -83,7 +85,9 @@ Our HTML table looks pretty ugly at this stage.😂 So we'll add CSS styling in 
 
 <details>
 <summary>At the end of this activity, we'll have achieved something like this </summary>
+  
 ![Table Picture](images/Activity-3/table.PNG)	
+
 </details>
 
 ### Micro-References  
