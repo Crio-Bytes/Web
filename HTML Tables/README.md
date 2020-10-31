@@ -47,17 +47,17 @@ Our aim here is to create a full-fledged HTML table.
 
 ### Tasks
 
-a. Go ahead and create three table headers with any experimental names of your choice and arrange them in a row using HTML markup.  
+- Go ahead and create three table headers with any experimental names of your choice and arrange them in a row using HTML markup.  
 
 > Need a hint? Go to `src/Activity-2/code2a.html` inside the folder  
 
-b. Now add two or three blocks of **table cell data** under the table headers created in `Activity-2/task-a`. Make sure to arrange them out **horizontally** as well using HTML markup.  
+- Now add two or three blocks of **table cell data** under the table headers created in `Activity-2/task-a`. Make sure to arrange them out **horizontally** as well using HTML markup.  
 
 > Need a hint? Go to `src/Activity-2/code2b.html` inside the folder  
 
 <details>
 <summary>At the end of this activity, our table should look something like this </summary>
-![](images/Activity-2/table.PNG)	
+![Table Picture](images/Activity-2/table.PNG)	
 </details>
 
 ### Micro-References  
@@ -69,21 +69,21 @@ b. Now add two or three blocks of **table cell data** under the table headers cr
 
 Our HTML table looks pretty ugly at this stage.😂 So we'll add CSS styling in this activity to enhance our existing tabular structure and beautify it.  
 
-a. Let's start by adding a **border outline** to the entire table and expand it's **width** to occupy the entire width of the browser.  
+- Let's start by adding a **border outline** to the entire table and expand it's **width** to occupy the entire width of the browser.  
 
 > Need some help? Look into `src/Activity-3/style3a.css` inside the folder for relevant details    
 
-b. To add a consistent look to the table data, go ahead and **align** the table cell data (including headers) in a **left** fashion. Make sure to reference existing HTML tags to achieve this.  
+- To add a consistent look to the table data, go ahead and **align** the table cell data (including headers) in a **left** fashion. Make sure to reference existing HTML tags to achieve this.  
 
 > Need some help? Look into `src/Activity-3/style3b.css` inside the folder for relevant details  
 
-c. Now, add a dark border outline around each table cell element (including headers). Finally, add a consistent **padding** to our table cell elements (including headers, mind you) and you'll have created the final design of our proposed HTML table.  
+- Now, add a dark border outline around each table cell element (including headers). Finally, add a consistent **padding** to our table cell elements (including headers, mind you) and you'll have created the final design of our proposed HTML table.  
 
 > Need some help? Look into `src/Activity-3/style3c.css` inside the folder for relevant details
 
 <details>
 <summary>At the end of this activity, we'll have achieved something like this </summary>
-![](images/Activity-3/table.PNG)	
+![Table Picture](images/Activity-3/table.PNG)	
 </details>
 
 ### Micro-References  
