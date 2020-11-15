@@ -1,3 +1,4 @@
+/*Setting 'box-sizing' value to 'border-box' so that an element's width or height also includes both padding and border*/
 * {
   box-sizing: border-box;
 }
@@ -16,13 +17,14 @@ body {
   color: white;
 }
 
-/*Navbar section*/
+/*Styling the Navbar section using flex so as to give a proper layout and place content nicely*/
 .navbar {
   display: flex;
   background-color: #333;
 }
 
 /* Styling the navbar links */
+/* Added 'text-decoration' value 'none' so that there is no underline under the links and 'transition-duration' for making our links work smoothly*/
 .navbar a {
   color: #fff;
   padding: 14px 20px;
@@ -38,7 +40,7 @@ body {
 }
 
 /*Body content*/
-
+/*Using 'flex-wrap' value 'wrap' so that the content comes down when the width of another element under that same section is increased*/
 .parent{  
   display: flex;
   flex-wrap: wrap;
@@ -71,7 +73,7 @@ body {
   text-align: center;
   background: #ddd;
 }
-
+/* Making our website layout responsive using media query*/
 @media screen and (max-width: 768px) {
   .parent, .navbar{   
     flex-direction: column;
